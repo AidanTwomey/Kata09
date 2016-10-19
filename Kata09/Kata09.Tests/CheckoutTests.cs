@@ -18,7 +18,6 @@ namespace Kata09.Tests
         [TestCase(175, "AAABB")]
         [TestCase(190, "AAABBD")]
         [TestCase(190, "DABABA")]
-
         [Test]
         public void checkout_value_calculated_correctly_at_end(int expected, string basket)
         {

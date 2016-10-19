@@ -7,7 +7,7 @@ namespace Kata09
         private readonly IEnumerable<IPricingRule> rules;
         private readonly Basket basket;
 
-        public Checkout(IEnumerable<IPricingRule> rules )
+        public Checkout(IEnumerable<IPricingRule> rules)
         {
             this.rules = rules;
             basket = new Basket();
