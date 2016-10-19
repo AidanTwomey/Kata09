@@ -40,8 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basket.cs" />
     <Compile Include="Checkout.cs" />
+    <Compile Include="IPricingRule.cs" />
+    <Compile Include="MultibuyRule.cs" />
+    <Compile Include="NullRule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RulesEngine.cs" />
+    <Compile Include="StockPricingUnit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
